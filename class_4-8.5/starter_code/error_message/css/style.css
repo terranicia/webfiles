@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body{
+	background: cyan;
+	font-family: arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: yellow;
+	height: 150px;
+	color: pink;
+	padding: 20px;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+header nav{
+	float: right;
+}
+
+header nav a{
+	color: #fff;
+	padding-left: 20px;
+	font-size: 21px;
+}
+
+.hero{
+	background: black;
+	height: 300px;
+}
+
+.benefits:after{
+    content:" ";
+    display: table;
+    clear: both;                     
+}
+
+
+
+.benefits .benefit{
+	float: left;
+	background: #fff;
+	border: 1px solid pink;
+	width: 33.3333%;
+	height: 40px;
+	padding: 50px;
+	margin: 10px
+}
+
+
+
+
+
+
+
+
+
+
+/*#notification{
+	background: yellow;
+	border: 1px solid gold;
+}
+
+.message{
+	background: rgba(0, 255,255, .5);
+	padding: 5px 15px;
+	border: 1px solid rgba(0, 255,255, 1);
+	border-radius: 4px;
+	margin-bottom: 10px;
+}
+
+.error.message {
+	background: rgba(255, 0, 0, .5);
+	border: 1px solid rgba(0, 255,255, 1);
+}
+
+.success.message {
+	background: green;
+	border:1px solid green;
+}
+*/
+
+

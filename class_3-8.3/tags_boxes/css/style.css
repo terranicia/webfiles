@@ -1,0 +1,40 @@
+h1{
+	background: red;
+	padding: 20px;
+	border: 5px solid black;
+}
+
+p{
+	background: blue;
+	color: white;
+	padding: 20px;
+	border: 5px solid black;
+}
+
+code{
+	background: white;
+	color: black;
+	padding: 3px;
+	border: 2px solid black;
+}
+
+h2{
+	background: green;
+	padding-top: 10px;
+	border: 4px dotted yellow;
+	font-family: arial, sans-serif;
+}
+
+ol{
+	background: black;
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+}
+
+p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 75px;
+    margin-left: 75px;
+}

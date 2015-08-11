@@ -1,0 +1,31 @@
+body {
+	color:gray;
+	padding: 30px;
+	padding-left: 50px;
+	font-family: Georgia;
+
+}
+
+h1{
+	color: black;
+}
+
+em{
+	color: black;
+	font-style: italic;
+}
+
+blockquote{
+	margin: 10px 0;
+	padding: 10px 10px;
+	border-left: 3px solid gray;
+	font-style: italic;
+}
+
+blockquote p {
+	margin: 0;
+}
+
+blockquote em{
+	font-style: normal;
+}
